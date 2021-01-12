@@ -429,7 +429,7 @@ def check_for_tie():
     # If board is full
     if  "_" not in board:
         game_continue = False
-        print("🎉  ITS A TIE   🎉")
+        print("It is a tie")
         return True
     else:
         return False
